@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3CFCE6F41C41A86B008B3EF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFCE6F31C41A86B008B3EF8 /* AppDelegate.swift */; };
+		3CFCE6F61C41A86B008B3EF8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFCE6F51C41A86B008B3EF8 /* ViewController.swift */; };
+		3CFCE6F91C41A86B008B3EF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CFCE6F71C41A86B008B3EF8 /* Main.storyboard */; };
+		3CFCE6FC1C41A86B008B3EF8 /* Spotdrop.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3CFCE6FA1C41A86B008B3EF8 /* Spotdrop.xcdatamodeld */; };
+		3CFCE6FE1C41A86B008B3EF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CFCE6FD1C41A86B008B3EF8 /* Assets.xcassets */; };
+		3CFCE7011C41A86B008B3EF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CFCE6FF1C41A86B008B3EF8 /* LaunchScreen.storyboard */; };
+		3CFCE70C1C41A86B008B3EF8 /* SpotdropTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFCE70B1C41A86B008B3EF8 /* SpotdropTests.swift */; };
+		3CFCE7171C41A86B008B3EF8 /* SpotdropUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFCE7161C41A86B008B3EF8 /* SpotdropUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3CFCE7081C41A86B008B3EF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3CFCE6E81C41A86B008B3EF8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CFCE6EF1C41A86B008B3EF8;
+			remoteInfo = Spotdrop;
+		};
+		3CFCE7131C41A86B008B3EF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3CFCE6E81C41A86B008B3EF8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CFCE6EF1C41A86B008B3EF8;
+			remoteInfo = Spotdrop;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3CFCE6F01C41A86B008B3EF8 /* Spotdrop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spotdrop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CFCE6F31C41A86B008B3EF8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3CFCE6F51C41A86B008B3EF8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3CFCE6F81C41A86B008B3EF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3CFCE6FB1C41A86B008B3EF8 /* Spotdrop.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Spotdrop.xcdatamodel; sourceTree = "<group>"; };
+		3CFCE6FD1C41A86B008B3EF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3CFCE7001C41A86B008B3EF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3CFCE7021C41A86B008B3EF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CFCE7071C41A86B008B3EF8 /* SpotdropTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpotdropTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CFCE70B1C41A86B008B3EF8 /* SpotdropTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotdropTests.swift; sourceTree = "<group>"; };
+		3CFCE70D1C41A86B008B3EF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CFCE7121C41A86B008B3EF8 /* SpotdropUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpotdropUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CFCE7161C41A86B008B3EF8 /* SpotdropUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotdropUITests.swift; sourceTree = "<group>"; };
+		3CFCE7181C41A86B008B3EF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3CFCE6ED1C41A86B008B3EF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CFCE7041C41A86B008B3EF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CFCE70F1C41A86B008B3EF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3CFCE6E71C41A86B008B3EF8 = {
+			isa = PBXGroup;
+			children = (
+				3CFCE6F21C41A86B008B3EF8 /* Spotdrop */,
+				3CFCE70A1C41A86B008B3EF8 /* SpotdropTests */,
+				3CFCE7151C41A86B008B3EF8 /* SpotdropUITests */,
+				3CFCE6F11C41A86B008B3EF8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3CFCE6F11C41A86B008B3EF8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3CFCE6F01C41A86B008B3EF8 /* Spotdrop.app */,
+				3CFCE7071C41A86B008B3EF8 /* SpotdropTests.xctest */,
+				3CFCE7121C41A86B008B3EF8 /* SpotdropUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3CFCE6F21C41A86B008B3EF8 /* Spotdrop */ = {
+			isa = PBXGroup;
+			children = (
+				3CFCE6F31C41A86B008B3EF8 /* AppDelegate.swift */,
+				3CFCE6F51C41A86B008B3EF8 /* ViewController.swift */,
+				3CFCE6F71C41A86B008B3EF8 /* Main.storyboard */,
+				3CFCE6FD1C41A86B008B3EF8 /* Assets.xcassets */,
+				3CFCE6FF1C41A86B008B3EF8 /* LaunchScreen.storyboard */,
+				3CFCE7021C41A86B008B3EF8 /* Info.plist */,
+				3CFCE6FA1C41A86B008B3EF8 /* Spotdrop.xcdatamodeld */,
+			);
+			path = Spotdrop;
+			sourceTree = "<group>";
+		};
+		3CFCE70A1C41A86B008B3EF8 /* SpotdropTests */ = {
+			isa = PBXGroup;
+			children = (
+				3CFCE70B1C41A86B008B3EF8 /* SpotdropTests.swift */,
+				3CFCE70D1C41A86B008B3EF8 /* Info.plist */,
+			);
+			path = SpotdropTests;
+			sourceTree = "<group>";
+		};
+		3CFCE7151C41A86B008B3EF8 /* SpotdropUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3CFCE7161C41A86B008B3EF8 /* SpotdropUITests.swift */,
+				3CFCE7181C41A86B008B3EF8 /* Info.plist */,
+			);
+			path = SpotdropUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3CFCE6EF1C41A86B008B3EF8 /* Spotdrop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CFCE71B1C41A86B008B3EF8 /* Build configuration list for PBXNativeTarget "Spotdrop" */;
+			buildPhases = (
+				3CFCE6EC1C41A86B008B3EF8 /* Sources */,
+				3CFCE6ED1C41A86B008B3EF8 /* Frameworks */,
+				3CFCE6EE1C41A86B008B3EF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Spotdrop;
+			productName = Spotdrop;
+			productReference = 3CFCE6F01C41A86B008B3EF8 /* Spotdrop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3CFCE7061C41A86B008B3EF8 /* SpotdropTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CFCE71E1C41A86B008B3EF8 /* Build configuration list for PBXNativeTarget "SpotdropTests" */;
+			buildPhases = (
+				3CFCE7031C41A86B008B3EF8 /* Sources */,
+				3CFCE7041C41A86B008B3EF8 /* Frameworks */,
+				3CFCE7051C41A86B008B3EF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3CFCE7091C41A86B008B3EF8 /* PBXTargetDependency */,
+			);
+			name = SpotdropTests;
+			productName = SpotdropTests;
+			productReference = 3CFCE7071C41A86B008B3EF8 /* SpotdropTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3CFCE7111C41A86B008B3EF8 /* SpotdropUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CFCE7211C41A86B008B3EF8 /* Build configuration list for PBXNativeTarget "SpotdropUITests" */;
+			buildPhases = (
+				3CFCE70E1C41A86B008B3EF8 /* Sources */,
+				3CFCE70F1C41A86B008B3EF8 /* Frameworks */,
+				3CFCE7101C41A86B008B3EF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3CFCE7141C41A86B008B3EF8 /* PBXTargetDependency */,
+			);
+			name = SpotdropUITests;
+			productName = SpotdropUITests;
+			productReference = 3CFCE7121C41A86B008B3EF8 /* SpotdropUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3CFCE6E81C41A86B008B3EF8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Erik Koebke";
+				TargetAttributes = {
+					3CFCE6EF1C41A86B008B3EF8 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					3CFCE7061C41A86B008B3EF8 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 3CFCE6EF1C41A86B008B3EF8;
+					};
+					3CFCE7111C41A86B008B3EF8 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 3CFCE6EF1C41A86B008B3EF8;
+					};
+				};
+			};
+			buildConfigurationList = 3CFCE6EB1C41A86B008B3EF8 /* Build configuration list for PBXProject "Spotdrop" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3CFCE6E71C41A86B008B3EF8;
+			productRefGroup = 3CFCE6F11C41A86B008B3EF8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3CFCE6EF1C41A86B008B3EF8 /* Spotdrop */,
+				3CFCE7061C41A86B008B3EF8 /* SpotdropTests */,
+				3CFCE7111C41A86B008B3EF8 /* SpotdropUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3CFCE6EE1C41A86B008B3EF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CFCE7011C41A86B008B3EF8 /* LaunchScreen.storyboard in Resources */,
+				3CFCE6FE1C41A86B008B3EF8 /* Assets.xcassets in Resources */,
+				3CFCE6F91C41A86B008B3EF8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CFCE7051C41A86B008B3EF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CFCE7101C41A86B008B3EF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3CFCE6EC1C41A86B008B3EF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CFCE6F61C41A86B008B3EF8 /* ViewController.swift in Sources */,
+				3CFCE6FC1C41A86B008B3EF8 /* Spotdrop.xcdatamodeld in Sources */,
+				3CFCE6F41C41A86B008B3EF8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CFCE7031C41A86B008B3EF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CFCE70C1C41A86B008B3EF8 /* SpotdropTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CFCE70E1C41A86B008B3EF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CFCE7171C41A86B008B3EF8 /* SpotdropUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3CFCE7091C41A86B008B3EF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3CFCE6EF1C41A86B008B3EF8 /* Spotdrop */;
+			targetProxy = 3CFCE7081C41A86B008B3EF8 /* PBXContainerItemProxy */;
+		};
+		3CFCE7141C41A86B008B3EF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3CFCE6EF1C41A86B008B3EF8 /* Spotdrop */;
+			targetProxy = 3CFCE7131C41A86B008B3EF8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3CFCE6F71C41A86B008B3EF8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3CFCE6F81C41A86B008B3EF8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3CFCE6FF1C41A86B008B3EF8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3CFCE7001C41A86B008B3EF8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3CFCE7191C41A86B008B3EF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3CFCE71A1C41A86B008B3EF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3CFCE71C1C41A86B008B3EF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Spotdrop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.Spotdrop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3CFCE71D1C41A86B008B3EF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Spotdrop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.Spotdrop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3CFCE71F1C41A86B008B3EF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SpotdropTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.SpotdropTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Spotdrop.app/Spotdrop";
+			};
+			name = Debug;
+		};
+		3CFCE7201C41A86B008B3EF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SpotdropTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.SpotdropTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Spotdrop.app/Spotdrop";
+			};
+			name = Release;
+		};
+		3CFCE7221C41A86B008B3EF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SpotdropUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.SpotdropUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Spotdrop;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		3CFCE7231C41A86B008B3EF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SpotdropUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.SpotdropUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Spotdrop;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3CFCE6EB1C41A86B008B3EF8 /* Build configuration list for PBXProject "Spotdrop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CFCE7191C41A86B008B3EF8 /* Debug */,
+				3CFCE71A1C41A86B008B3EF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CFCE71B1C41A86B008B3EF8 /* Build configuration list for PBXNativeTarget "Spotdrop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CFCE71C1C41A86B008B3EF8 /* Debug */,
+				3CFCE71D1C41A86B008B3EF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3CFCE71E1C41A86B008B3EF8 /* Build configuration list for PBXNativeTarget "SpotdropTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CFCE71F1C41A86B008B3EF8 /* Debug */,
+				3CFCE7201C41A86B008B3EF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3CFCE7211C41A86B008B3EF8 /* Build configuration list for PBXNativeTarget "SpotdropUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CFCE7221C41A86B008B3EF8 /* Debug */,
+				3CFCE7231C41A86B008B3EF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3CFCE6FA1C41A86B008B3EF8 /* Spotdrop.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3CFCE6FB1C41A86B008B3EF8 /* Spotdrop.xcdatamodel */,
+			);
+			currentVersion = 3CFCE6FB1C41A86B008B3EF8 /* Spotdrop.xcdatamodel */;
+			path = Spotdrop.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3CFCE6E81C41A86B008B3EF8 /* Project object */;
+}
