@@ -12,5 +12,6 @@
 #import <FBSDKCoreKit/FBSDKCoreKit.h>
 #import <FBSDKShareKit/FBSDKShareKit.h>
 #import <FBSDKLoginKit/FBSDKLoginKit.h>
+#import <AWSCore/AWSCore.h>
 
 #endif /* Spotdrop_Bridging_Header_h */
