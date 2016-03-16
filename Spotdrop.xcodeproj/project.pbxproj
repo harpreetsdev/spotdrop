@@ -7,10 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3CF5FC0E1C44961E00B1331B /* SpotdropIdentityProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF5FC0D1C44961E00B1331B /* SpotdropIdentityProvider.swift */; };
 		3CF5FC101C449DE100B1331B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF5FC0F1C449DE100B1331B /* Constants.swift */; };
-		3CFCC9AC1C5570D400744698 /* userSignUpRequest.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3CFCC9AB1C5570D400744698 /* userSignUpRequest.txt */; };
-		3CFCC9AE1C55711600744698 /* userSignUpResponse.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3CFCC9AD1C55711600744698 /* userSignUpResponse.txt */; };
 		3CFCE6F41C41A86B008B3EF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFCE6F31C41A86B008B3EF8 /* AppDelegate.swift */; };
 		3CFCE6F61C41A86B008B3EF8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFCE6F51C41A86B008B3EF8 /* ViewController.swift */; };
 		3CFCE6F91C41A86B008B3EF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CFCE6F71C41A86B008B3EF8 /* Main.storyboard */; };
@@ -19,9 +16,6 @@
 		3CFCE7011C41A86B008B3EF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CFCE6FF1C41A86B008B3EF8 /* LaunchScreen.storyboard */; };
 		3CFCE70C1C41A86B008B3EF8 /* SpotdropTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFCE70B1C41A86B008B3EF8 /* SpotdropTests.swift */; };
 		3CFCE7171C41A86B008B3EF8 /* SpotdropUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFCE7161C41A86B008B3EF8 /* SpotdropUITests.swift */; };
-		3CFCE7261C41AA09008B3EF8 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CFCE7251C41AA09008B3EF8 /* FBSDKLoginKit.framework */; };
-		3CFCE7281C41AA18008B3EF8 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CFCE7271C41AA18008B3EF8 /* FBSDKCoreKit.framework */; };
-		3CFCE72A1C41AA3B008B3EF8 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CFCE7291C41AA3B008B3EF8 /* FBSDKShareKit.framework */; };
 		E6BA83369ABAFDA54F2D90DD /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 995A950E33FECCA56844C356 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -44,10 +38,7 @@
 
 /* Begin PBXFileReference section */
 		10A4306DFDACCC2A6D1D70C4 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
-		3CF5FC0D1C44961E00B1331B /* SpotdropIdentityProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpotdropIdentityProvider.swift; sourceTree = "<group>"; };
 		3CF5FC0F1C449DE100B1331B /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		3CFCC9AB1C5570D400744698 /* userSignUpRequest.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = userSignUpRequest.txt; sourceTree = "<group>"; };
-		3CFCC9AD1C55711600744698 /* userSignUpResponse.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = userSignUpResponse.txt; sourceTree = "<group>"; };
 		3CFCE6F01C41A86B008B3EF8 /* Spotdrop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spotdrop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CFCE6F31C41A86B008B3EF8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3CFCE6F51C41A86B008B3EF8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -62,9 +53,6 @@
 		3CFCE7121C41A86B008B3EF8 /* SpotdropUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpotdropUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CFCE7161C41A86B008B3EF8 /* SpotdropUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotdropUITests.swift; sourceTree = "<group>"; };
 		3CFCE7181C41A86B008B3EF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3CFCE7251C41AA09008B3EF8 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = "../../SDKs/Facebook-iOS-SDK/FBSDKLoginKit.framework"; sourceTree = "<group>"; };
-		3CFCE7271C41AA18008B3EF8 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = "../../SDKs/Facebook-iOS-SDK/FBSDKCoreKit.framework"; sourceTree = "<group>"; };
-		3CFCE7291C41AA3B008B3EF8 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = "../../SDKs/Facebook-iOS-SDK/FBSDKShareKit.framework"; sourceTree = "<group>"; };
 		3CFCE72B1C41B3F2008B3EF8 /* Spotdrop-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Spotdrop-Bridging-Header.h"; sourceTree = "<group>"; };
 		9791452F49F7B1BABCB36419 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		995A950E33FECCA56844C356 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -75,9 +63,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3CFCE7261C41AA09008B3EF8 /* FBSDKLoginKit.framework in Frameworks */,
-				3CFCE7281C41AA18008B3EF8 /* FBSDKCoreKit.framework in Frameworks */,
-				3CFCE72A1C41AA3B008B3EF8 /* FBSDKShareKit.framework in Frameworks */,
 				E6BA83369ABAFDA54F2D90DD /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -110,7 +95,6 @@
 		3CF5FC131C449E7400B1331B /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				3CF5FC0D1C44961E00B1331B /* SpotdropIdentityProvider.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -132,44 +116,9 @@
 			name = View;
 			sourceTree = "<group>";
 		};
-		3CFCC9AA1C5570AB00744698 /* API-Gateway-Models */ = {
-			isa = PBXGroup;
-			children = (
-				3CFCC9AB1C5570D400744698 /* userSignUpRequest.txt */,
-				3CFCC9AD1C55711600744698 /* userSignUpResponse.txt */,
-			);
-			name = "API-Gateway-Models";
-			path = Spotdrop;
-			sourceTree = "<group>";
-		};
-		3CFCC9B01C559C8D00744698 /* Lambda-Functions */ = {
-			isa = PBXGroup;
-			children = (
-				3CFCC9B21C559DA200744698 /* login-data-functions */,
-				3CFCC9B11C559D2200744698 /* signup-data-functions */,
-			);
-			name = "Lambda-Functions";
-			sourceTree = "<group>";
-		};
-		3CFCC9B11C559D2200744698 /* signup-data-functions */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = "signup-data-functions";
-			sourceTree = "<group>";
-		};
-		3CFCC9B21C559DA200744698 /* login-data-functions */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = "login-data-functions";
-			sourceTree = "<group>";
-		};
 		3CFCE6E71C41A86B008B3EF8 = {
 			isa = PBXGroup;
 			children = (
-				3CFCC9AA1C5570AB00744698 /* API-Gateway-Models */,
-				3CFCC9B01C559C8D00744698 /* Lambda-Functions */,
 				3CFCE6F21C41A86B008B3EF8 /* Spotdrop */,
 				3CFCE70A1C41A86B008B3EF8 /* SpotdropTests */,
 				3CFCE7151C41A86B008B3EF8 /* SpotdropUITests */,
@@ -235,9 +184,6 @@
 		5EED7FC60A33AFF28AAA132A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3CFCE7291C41AA3B008B3EF8 /* FBSDKShareKit.framework */,
-				3CFCE7271C41AA18008B3EF8 /* FBSDKCoreKit.framework */,
-				3CFCE7251C41AA09008B3EF8 /* FBSDKLoginKit.framework */,
 				995A950E33FECCA56844C356 /* libPods.a */,
 			);
 			name = Frameworks;
@@ -351,8 +297,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				3CFCE7011C41A86B008B3EF8 /* LaunchScreen.storyboard in Resources */,
-				3CFCC9AE1C55711600744698 /* userSignUpResponse.txt in Resources */,
-				3CFCC9AC1C5570D400744698 /* userSignUpRequest.txt in Resources */,
 				3CFCE6FE1C41A86B008B3EF8 /* Assets.xcassets in Resources */,
 				3CFCE6F91C41A86B008B3EF8 /* Main.storyboard in Resources */,
 			);
@@ -429,7 +373,6 @@
 			files = (
 				3CF5FC101C449DE100B1331B /* Constants.swift in Sources */,
 				3CFCE6F61C41A86B008B3EF8 /* ViewController.swift in Sources */,
-				3CF5FC0E1C44961E00B1331B /* SpotdropIdentityProvider.swift in Sources */,
 				3CFCE6FC1C41A86B008B3EF8 /* Spotdrop.xcdatamodeld in Sources */,
 				3CFCE6F41C41A86B008B3EF8 /* AppDelegate.swift in Sources */,
 			);

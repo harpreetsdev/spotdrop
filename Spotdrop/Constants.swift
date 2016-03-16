@@ -18,7 +18,6 @@ struct Constants {
     struct DynamoDb {
         static var userTableName = "user"
         static var dynamoDbUserTableARN = "arn:aws:dynamodb:us-east-1:078269667943:table/user"
-        static var signupARN = "arn:aws:lambda:us-east-1:078269667943:function:Signup"
     }
    
 }
