@@ -19,5 +19,14 @@ struct Constants {
         static var userTableName = "user"
         static var dynamoDbUserTableARN = "arn:aws:dynamodb:us-east-1:078269667943:table/user"
     }
+    
+    struct Google {
+        static var googleMapsApiKey = "AIzaSyD3j_Qf63WpMR8Zl_v27p-yZ3uK4nDdTIY"
+    }
+    
+    struct Foursquare {
+        static var clientId = "UVAIULZHQ2MSAX5IJCX4JYQT33MPJ312ERFE2W445ERV0MPU"
+        static var clientSecret = "YAAH330LLE0QIYVY0CIOHA1W21NPGOEXJFCJ4ID4JBG1LDD4"
+    }
    
 }

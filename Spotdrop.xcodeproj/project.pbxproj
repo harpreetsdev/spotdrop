@@ -9,14 +9,14 @@
 /* Begin PBXBuildFile section */
 		3CF5FC101C449DE100B1331B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF5FC0F1C449DE100B1331B /* Constants.swift */; };
 		3CFCE6F41C41A86B008B3EF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFCE6F31C41A86B008B3EF8 /* AppDelegate.swift */; };
-		3CFCE6F61C41A86B008B3EF8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFCE6F51C41A86B008B3EF8 /* ViewController.swift */; };
+		3CFCE6F61C41A86B008B3EF8 /* SDMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFCE6F51C41A86B008B3EF8 /* SDMainViewController.swift */; };
 		3CFCE6F91C41A86B008B3EF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CFCE6F71C41A86B008B3EF8 /* Main.storyboard */; };
 		3CFCE6FC1C41A86B008B3EF8 /* Spotdrop.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3CFCE6FA1C41A86B008B3EF8 /* Spotdrop.xcdatamodeld */; };
 		3CFCE6FE1C41A86B008B3EF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CFCE6FD1C41A86B008B3EF8 /* Assets.xcassets */; };
 		3CFCE7011C41A86B008B3EF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CFCE6FF1C41A86B008B3EF8 /* LaunchScreen.storyboard */; };
 		3CFCE70C1C41A86B008B3EF8 /* SpotdropTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFCE70B1C41A86B008B3EF8 /* SpotdropTests.swift */; };
 		3CFCE7171C41A86B008B3EF8 /* SpotdropUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFCE7161C41A86B008B3EF8 /* SpotdropUITests.swift */; };
-		E6BA83369ABAFDA54F2D90DD /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 995A950E33FECCA56844C356 /* libPods.a */; };
+		72AED4C418C3AAD1C00D63DC /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4040190A2ADCC18A992E440 /* Pods.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +41,7 @@
 		3CF5FC0F1C449DE100B1331B /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		3CFCE6F01C41A86B008B3EF8 /* Spotdrop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spotdrop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CFCE6F31C41A86B008B3EF8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3CFCE6F51C41A86B008B3EF8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3CFCE6F51C41A86B008B3EF8 /* SDMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDMainViewController.swift; sourceTree = "<group>"; };
 		3CFCE6F81C41A86B008B3EF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3CFCE6FB1C41A86B008B3EF8 /* Spotdrop.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Spotdrop.xcdatamodel; sourceTree = "<group>"; };
 		3CFCE6FD1C41A86B008B3EF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -55,7 +55,7 @@
 		3CFCE7181C41A86B008B3EF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3CFCE72B1C41B3F2008B3EF8 /* Spotdrop-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Spotdrop-Bridging-Header.h"; sourceTree = "<group>"; };
 		9791452F49F7B1BABCB36419 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
-		995A950E33FECCA56844C356 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4040190A2ADCC18A992E440 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E6BA83369ABAFDA54F2D90DD /* libPods.a in Frameworks */,
+				72AED4C418C3AAD1C00D63DC /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,10 +84,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3CA7A60A1CA8C25B007187F4 /* Custom Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Custom Components";
+			sourceTree = "<group>";
+		};
 		3CF5FC111C449DF800B1331B /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				3CFCE6F51C41A86B008B3EF8 /* ViewController.swift */,
+				3CFCE6F51C41A86B008B3EF8 /* SDMainViewController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -102,6 +109,7 @@
 		3CF5FC141C449E8C00B1331B /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				3CA7A60A1CA8C25B007187F4 /* Custom Components */,
 				3CF5FC0F1C449DE100B1331B /* Constants.swift */,
 			);
 			name = Utilities;
@@ -184,7 +192,7 @@
 		5EED7FC60A33AFF28AAA132A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				995A950E33FECCA56844C356 /* libPods.a */,
+				B4040190A2ADCC18A992E440 /* Pods.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -260,6 +268,7 @@
 				TargetAttributes = {
 					3CFCE6EF1C41A86B008B3EF8 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 5FYD9A2JA7;
 					};
 					3CFCE7061C41A86B008B3EF8 = {
 						CreatedOnToolsVersion = 7.2;
@@ -372,7 +381,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3CF5FC101C449DE100B1331B /* Constants.swift in Sources */,
-				3CFCE6F61C41A86B008B3EF8 /* ViewController.swift in Sources */,
+				3CFCE6F61C41A86B008B3EF8 /* SDMainViewController.swift in Sources */,
 				3CFCE6FC1C41A86B008B3EF8 /* Spotdrop.xcdatamodeld in Sources */,
 				3CFCE6F41C41A86B008B3EF8 /* AppDelegate.swift in Sources */,
 			);
@@ -517,11 +526,13 @@
 			baseConfigurationReference = 9791452F49F7B1BABCB36419 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				"FRAMEWORK_SEARCH_PATHS[arch=*]" = "/Users/erikkoebke/SDKs/Facebook-iOS-SDK";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Spotdrop/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.app.Spotdrop;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = "Spotdrop/Spotdrop-Bridging-Header.h";
 			};
 			name = Debug;
@@ -531,10 +542,13 @@
 			baseConfigurationReference = 10A4306DFDACCC2A6D1D70C4 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Spotdrop/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.app.Spotdrop;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = "Spotdrop/Spotdrop-Bridging-Header.h";
 			};
 			name = Release;
