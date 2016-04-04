@@ -84,13 +84,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3CA7A60A1CA8C25B007187F4 /* Custom Components */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = "Custom Components";
-			sourceTree = "<group>";
-		};
 		3CF5FC111C449DF800B1331B /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -109,7 +102,6 @@
 		3CF5FC141C449E8C00B1331B /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
-				3CA7A60A1CA8C25B007187F4 /* Custom Components */,
 				3CF5FC0F1C449DE100B1331B /* Constants.swift */,
 			);
 			name = Utilities;

@@ -14,10 +14,11 @@ import Mapbox
 class SDMainViewController: UIViewController, CLLocationManagerDelegate {
     
     @IBOutlet var mapView: MGLMapView!
-    @IBOutlet weak var activityBarView: UIView!
+    @IBOutlet weak var promptView: UIView!
     @IBOutlet weak var goToUserProfileView: UIView!
     @IBOutlet weak var goToCurrentPlaceView: UIView!
-    @IBOutlet weak var promptView: UIView!
+    @IBOutlet weak var upArrow: UIImageView!
+
 
     var locationManager: CLLocationManager?
     var currentUserLocation: CLLocation?
@@ -34,12 +35,12 @@ class SDMainViewController: UIViewController, CLLocationManagerDelegate {
         /*
             add shadow to activityBarView
          */
-        let shadowPath = UIBezierPath(rect: view.bounds)
-        activityBarView.layer.masksToBounds = false
-        activityBarView.layer.shadowColor = UIColor(red: 58/255, green: 56/255, blue: 54/255, alpha: 0.98).CGColor
-        activityBarView.layer.shadowOffset = CGSize(width: 0, height: 0.5)
-        activityBarView.layer.shadowOpacity = 0.2
-        activityBarView.layer.shadowPath = shadowPath.CGPath
+        let shadowPath = UIBezierPath(rect: promptView.bounds)
+        promptView.layer.masksToBounds = false
+        promptView.layer.shadowColor = UIColor(red: 58/255, green: 56/255, blue: 54/255, alpha: 0.98).CGColor
+        promptView.layer.shadowOffset = CGSize(width: 0, height: 1.0)
+        promptView.layer.shadowOpacity = 0.2
+        promptView.layer.shadowPath = shadowPath.CGPath
     }
     
  
@@ -81,9 +82,8 @@ class SDMainViewController: UIViewController, CLLocationManagerDelegate {
         mapView.showsUserLocation = true
         mapView.compassView.hidden = true
         mapView.styleURL = NSURL(string: "mapbox://styles/erikk531/cimcobng600dka6m4yyzallot")
-        //        mapView.logoView.hidden = true
-        //        mapView.attributionButton.hidden = true
-
+        mapView.attributionButton.hidden = false
+        mapView.logoView.hidden = true
     }
 }
 
