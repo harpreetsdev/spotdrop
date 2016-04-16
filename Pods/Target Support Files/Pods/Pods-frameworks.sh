@@ -101,6 +101,7 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "Pods/AWSSQS.framework"
   install_framework "Pods/AWSSimpleDB.framework"
   install_framework "Pods/Alamofire.framework"
+  install_framework "Pods/AlamofireImage.framework"
   install_framework "${PODS_ROOT}/Mapbox-iOS-SDK/dynamic/Mapbox.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
@@ -121,5 +122,6 @@ if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "Pods/AWSSQS.framework"
   install_framework "Pods/AWSSimpleDB.framework"
   install_framework "Pods/Alamofire.framework"
+  install_framework "Pods/AlamofireImage.framework"
   install_framework "${PODS_ROOT}/Mapbox-iOS-SDK/dynamic/Mapbox.framework"
 fi

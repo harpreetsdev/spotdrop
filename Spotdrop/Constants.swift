@@ -28,5 +28,9 @@ struct Constants {
         static var clientId = "UVAIULZHQ2MSAX5IJCX4JYQT33MPJ312ERFE2W445ERV0MPU"
         static var clientSecret = "YAAH330LLE0QIYVY0CIOHA1W21NPGOEXJFCJ4ID4JBG1LDD4"
     }
+    
+    struct Facebook {
+        static var userAccessToken: FBSDKAccessToken?
+    }
    
 }

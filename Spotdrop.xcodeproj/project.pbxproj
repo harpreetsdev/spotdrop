@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3CE942D71CBF4A56005E3DC1 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CE942D61CBF4A56005E3DC1 /* FBSDKCoreKit.framework */; };
+		3CE942D91CBF4A6A005E3DC1 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CE942D81CBF4A6A005E3DC1 /* FBSDKLoginKit.framework */; };
+		3CE942DB1CBF4A7C005E3DC1 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CE942DA1CBF4A7C005E3DC1 /* FBSDKShareKit.framework */; };
+		3CE942DD1CBF4A8F005E3DC1 /* FBNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CE942DC1CBF4A8F005E3DC1 /* FBNotifications.framework */; };
+		3CE942DF1CBF4A9D005E3DC1 /* FBSDKMessengerShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CE942DE1CBF4A9D005E3DC1 /* FBSDKMessengerShareKit.framework */; };
+		3CE942E11CBF4AB5005E3DC1 /* FBAudienceNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CE942E01CBF4AB5005E3DC1 /* FBAudienceNetwork.framework */; };
+		3CE942E31CBFCD81005E3DC1 /* SDLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE942E21CBFCD81005E3DC1 /* SDLoginViewController.swift */; };
+		3CE942E51CC070B4005E3DC1 /* SDUserIdentificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE942E41CC070B4005E3DC1 /* SDUserIdentificationViewController.swift */; };
 		3CF5FC101C449DE100B1331B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF5FC0F1C449DE100B1331B /* Constants.swift */; };
 		3CFCE6F41C41A86B008B3EF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFCE6F31C41A86B008B3EF8 /* AppDelegate.swift */; };
 		3CFCE6F61C41A86B008B3EF8 /* SDMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFCE6F51C41A86B008B3EF8 /* SDMainViewController.swift */; };
@@ -38,6 +46,14 @@
 
 /* Begin PBXFileReference section */
 		10A4306DFDACCC2A6D1D70C4 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		3CE942D61CBF4A56005E3DC1 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		3CE942D81CBF4A6A005E3DC1 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		3CE942DA1CBF4A7C005E3DC1 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
+		3CE942DC1CBF4A8F005E3DC1 /* FBNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBNotifications.framework; sourceTree = "<group>"; };
+		3CE942DE1CBF4A9D005E3DC1 /* FBSDKMessengerShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKMessengerShareKit.framework; sourceTree = "<group>"; };
+		3CE942E01CBF4AB5005E3DC1 /* FBAudienceNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBAudienceNetwork.framework; sourceTree = "<group>"; };
+		3CE942E21CBFCD81005E3DC1 /* SDLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDLoginViewController.swift; sourceTree = "<group>"; };
+		3CE942E41CC070B4005E3DC1 /* SDUserIdentificationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDUserIdentificationViewController.swift; sourceTree = "<group>"; };
 		3CF5FC0F1C449DE100B1331B /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		3CFCE6F01C41A86B008B3EF8 /* Spotdrop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spotdrop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CFCE6F31C41A86B008B3EF8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -63,7 +79,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CE942DB1CBF4A7C005E3DC1 /* FBSDKShareKit.framework in Frameworks */,
 				72AED4C418C3AAD1C00D63DC /* Pods.framework in Frameworks */,
+				3CE942D71CBF4A56005E3DC1 /* FBSDKCoreKit.framework in Frameworks */,
+				3CE942D91CBF4A6A005E3DC1 /* FBSDKLoginKit.framework in Frameworks */,
+				3CE942DF1CBF4A9D005E3DC1 /* FBSDKMessengerShareKit.framework in Frameworks */,
+				3CE942E11CBF4AB5005E3DC1 /* FBAudienceNetwork.framework in Frameworks */,
+				3CE942DD1CBF4A8F005E3DC1 /* FBNotifications.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +110,8 @@
 			isa = PBXGroup;
 			children = (
 				3CFCE6F51C41A86B008B3EF8 /* SDMainViewController.swift */,
+				3CE942E21CBFCD81005E3DC1 /* SDLoginViewController.swift */,
+				3CE942E41CC070B4005E3DC1 /* SDUserIdentificationViewController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -184,6 +208,12 @@
 		5EED7FC60A33AFF28AAA132A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3CE942E01CBF4AB5005E3DC1 /* FBAudienceNetwork.framework */,
+				3CE942DE1CBF4A9D005E3DC1 /* FBSDKMessengerShareKit.framework */,
+				3CE942DC1CBF4A8F005E3DC1 /* FBNotifications.framework */,
+				3CE942DA1CBF4A7C005E3DC1 /* FBSDKShareKit.framework */,
+				3CE942D81CBF4A6A005E3DC1 /* FBSDKLoginKit.framework */,
+				3CE942D61CBF4A56005E3DC1 /* FBSDKCoreKit.framework */,
 				B4040190A2ADCC18A992E440 /* Pods.framework */,
 			);
 			name = Frameworks;
@@ -374,7 +404,9 @@
 			files = (
 				3CF5FC101C449DE100B1331B /* Constants.swift in Sources */,
 				3CFCE6F61C41A86B008B3EF8 /* SDMainViewController.swift in Sources */,
+				3CE942E31CBFCD81005E3DC1 /* SDLoginViewController.swift in Sources */,
 				3CFCE6FC1C41A86B008B3EF8 /* Spotdrop.xcdatamodeld in Sources */,
+				3CE942E51CC070B4005E3DC1 /* SDUserIdentificationViewController.swift in Sources */,
 				3CFCE6F41C41A86B008B3EF8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -520,6 +552,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Spotdrop/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.app.Spotdrop;
@@ -536,6 +572,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Spotdrop/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.app.Spotdrop;
